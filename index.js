@@ -17,7 +17,7 @@ bot.onText(/\/show (.+)/, (msg, match) => {
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
         let url;
-        let targetPage = await "https://rule34.paheal.net/post/list/" + encodeURIComponent(match[1].trim()) +"/1"
+        let targetPage = await "hereWasTheNameoftheResourse/" + encodeURIComponent(match[1].trim()) +"/1" // Removing the name of the resource for personal reasons
         
         await page.goto(targetPage);
         await page.waitFor('div[class=tnc]');
