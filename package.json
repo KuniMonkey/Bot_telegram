@@ -1,0 +1,14 @@
+{
+  "name": "package",
+  "version": "0.0.1",
+  "description": "I search for porn",
+  "main": "index.js",
+  "repository": "https://github.com/n/a",
+  "author": "KuniMonkey",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0",
+    "puppeteer": "^1.14.0"
+  }
+}
