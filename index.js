@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const puppeteer = require('puppeteer');
 
-const token = '728222047:AAEA3hw316d6xXfcgVDf46drLdD8Jhyzad8';
+const token = 'token'; //removed the actual token
 const bot = new TelegramBot(token, {polling: true});
  
 bot.onText(/\/start/, (msg, match) => {
